@@ -50,6 +50,7 @@ module.exports.locationInfo = function(req, res) {
                 lng: -0.9690884
             },
             openingTimes: ['Myntra','Ajio','Flipkart'],
+            
             reviews: [{
                 author: 'Sri Bhavana',
                 rating: 5,
