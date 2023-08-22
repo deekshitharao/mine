@@ -1,15 +1,15 @@
 var express = require('express');
 var router = express.Router();
 
-var ctrllocations = require('../controller/locations');
+var ctrlwatches = require('../controller/watches');
 var ctrlothers = require('../controller/others');
 
 router.get('/signin',ctrlothers.signin);
 /* GET Locations page. */
-router.get('/',ctrllocations.homelist);
-router.get('/locations',ctrllocations.locationInfo);
+router.get('/',ctrlwatches.homelist);
+router.get('/watch',ctrlwatches.watchInfo);
 
-router.get('/location/review/new',ctrllocations.addReview);
+router.get('/watch/review/new',ctrlwatches.addReview);
 /* get others page */
 router.get('/about',ctrlothers.about);
 router.get('/register',ctrlothers.register);

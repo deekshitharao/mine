@@ -1,6 +1,6 @@
 /* GET 'home' page */
 module.exports.homelist = function(req, res) {
-    res.render('location-list', {
+    res.render('watch-list', {
         title: 'TimeCraft - find a watch of your style',
         pageHeader: {
             title: 'TimeCraft',
@@ -30,8 +30,8 @@ module.exports.homelist = function(req, res) {
 };
 
 
-module.exports.locationInfo = function(req, res) {
-    res.render('location-info', {
+module.exports.watchInfo = function(req, res) {
+    res.render('watch-info', {
         title: 'DressBerry',
         pageHeader: {
             title: 'DressBerry'
@@ -67,7 +67,7 @@ module.exports.locationInfo = function(req, res) {
 };
 
 module.exports.addReview= function(req,res){
-    res.render('location-review-form',{title:'review'});
+    res.render('watch-review-form',{title:'review'});
 };
 
  
