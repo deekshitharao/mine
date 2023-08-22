@@ -5243,7 +5243,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #ad1d28;
+  background-color: #1dad22;
   border-radius: 10px;
 }
 
@@ -5658,7 +5658,7 @@ a.list-group-item:focus {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #acf1f6;
+  color: #65b9ea;
 }
 
 .list-group-item-heading {

@@ -8,7 +8,8 @@ router.get('/signin',ctrlothers.signin);
 /* GET Locations page. */
 router.get('/',ctrllocations.homelist);
 router.get('/locations',ctrllocations.locationInfo);
-router.get('/locations/review/new',ctrllocations.addReview);
+
+router.get('/location/review/new',ctrllocations.addReview);
 /* get others page */
 router.get('/about',ctrlothers.about);
 router.get('/register',ctrlothers.register);
